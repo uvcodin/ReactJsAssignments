@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #e8e3e3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  
+  .navbar__logo {
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    list-style: none;
+    /* padding: 15px; */
+  }
+  .first{
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 8px;
+  }
+  .navbar__img{
+    height: 15px;
+    width: 15px;
+  }
+  
+  .navbar__menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar__item {
+    margin-right: 1rem;
+    cursor: pointer;
+    color: blue;
+  }
+  
+  .navbar__item:last-child {
+    margin-right: 10px;
+  }
+  .logo {
+    height: 24px;
+    width: 187px;
+    margin-top: 2px;
+  }
+  .xyz{
+    position: relative;
+  }
+  .BackgroundImg{
+    max-width: 100%;
+    height: auto;
+  }
+  .image-text {
+    position: absolute;
+    top: 50%; /* Adjust the vertical position of the text */
+    left: 10%; /* Adjust the horizontal position of the text */
+    /* transform: translate(-50%, -50%); Center the text */
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Optional: Add text shadow for better visibility */
+  }
+  .image-text2 {
+    position: absolute;
+    top: 73%; /* Adjust the vertical position of the text */
+    left: 10%; /* Adjust the horizontal position of the text */
+    /* transform: translate(-50%, -50%); Center the text */
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Optional: Add text shadow for better visibility */
+  }
+  .learnmore {
+    position: absolute;
+    top: 86%; /* Adjust the vertical position of the text */
+    left: 10%; /* Adjust the horizontal position of the text */
+    /* transform: translate(-50%, -50%); Center the text */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Optional: Add text shadow for better visibility */
+    background-color: rgb(255, 213, 0);
+    border: none;
+    border-radius: 2px;
+    
+  }
+  .learnmore:hover{
+    cursor: pointer;
+  }
+  
+  
